@@ -13,3 +13,19 @@ const myArrayObj = [
     sobreNome: "Neto",
   },
 ];
+
+for(let i = 0; i < 10; i++){
+  console.log(i);
+}
+
+for (let i = 0; i < myArray.length; i++){
+  console.log[myArrayObj[i].nome];
+}
+
+for(let item of myArrayObj){
+  console.log(item.nome, item.sobreNome);
+}
+
+fot(let item2 in myArrayObj){
+  console.log(item2);
+}

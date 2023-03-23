@@ -22,7 +22,7 @@ const pedidos = [
 ];
 
 const findId = pedidos.find((element) => {
-  return element.bebida === 29;
+  return element.id === 29;
 });
 
 console.log(findId);
